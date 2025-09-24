@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    min-height: 100hv;
+}
+
+.heading {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    color: skyblue;
+}
+/* styling persegi */
+.persegi {
+    border: 20px solid blue;
+    margin-top: 10px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: white;
+}
+
+#sisi {
+    border-color: blue;
+    border-radius: 8px;
+}
+
+#sisi:focus {
+    border: 4px solid purple;
+}
+
+#btnpersegi {
+    background-color: #000080;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0,3 ease-in;
+}
+
+#btnpersegi:hover {
+    background-color: #00ffff;
+    transform: scale(1.15);
+    box-shadow: 5px 5px 10px 2px, rgba(red, green, blue, alpha);
+}
+
+#btnpersegi:active {
+    background-color: #ADD8E6;
+    transform: scale(1);
+    box-shadow: none;
+}
+
+/* styling persegi panjang */
+.persegipanjang {
+    border: 20px solid greenyellow;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'lucida sans';
+    color: white;
+}
+
+#panjang {
+    border-color: #4caf50;
+    border-radius: 8px;
+}
+
+#panjang:focus {
+    border: 4px solid greenyellow;
+}
+
+#lebar {
+    border-color: #4caf50;
+    border-radius: 8px;
+}
+
+#lebar:focus {
+    border: 4px solid greenyellow;
+}
+
+#btnPP {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0,3 ease-in;
+}
+
+#btnPP:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px 2px rgba(red, green, blue, alpha);
+}
+
+#btnPP:active {
+     background-color: #3e8e41;
+     transform: scale(0.97);
+     box-shadow: none;
+}
+
+/* styling segitiga */
+.segitiga {
+    border: 20px solid red;
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'lucida sans';
+}
+
+.sisisegitiga {
+    border-color: orange;
+    border-radius: 8px;
+}
+
+.sisisegitiga:focus {
+    border: 4px solid orangered; 
+}
+
